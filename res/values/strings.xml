@@ -103,5 +103,9 @@
     <string name="version">© 2014 BlackmoonT92</string>
     <string name="testAll">Test All</string>
     
+    <!-- finish -->
+     <string name="close_app">Close Application?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
     
 </resources>

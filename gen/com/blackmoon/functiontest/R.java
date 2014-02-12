@@ -201,7 +201,12 @@ public final class R {
  Light Sensor 
          */
         public static final int brightness_intensity=0x7f06003a;
+        public static final int cancel=0x7f060055;
         public static final int capture_video=0x7f060047;
+        /**  finish 
+ finish 
+         */
+        public static final int close_app=0x7f060053;
         /**  Camera 
  Camera 
          */
@@ -309,6 +314,7 @@ public final class R {
         public static final int x_axis_value=0x7f06002f;
         public static final int y_axis=0x7f06002d;
         public static final int y_axis_value=0x7f060030;
+        public static final int yes=0x7f060054;
         public static final int z_axis=0x7f06002e;
         public static final int z_axis_value=0x7f060031;
     }

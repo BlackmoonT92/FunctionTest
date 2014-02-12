@@ -1,5 +1,6 @@
 package com.blackmoon.functiontest;
 
+
 import com.blackmoon.button_test.ButtonTestActivity;
 import com.blackmoon.camera.CameraActivity;
 import com.blackmoon.gps.AndroidGPSTrackingActivity;
@@ -14,14 +15,17 @@ import com.blackmoon.touch_test.TouchTestActivity;
 import com.blackmoon.vibration.VibrationActivity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-public class OptionTestActivity extends Activity implements OnClickListener {
+public class OptionTestActivity extends Activity implements OnClickListener, android.content.DialogInterface.OnClickListener {
 	// ============================================
 	// VARIABLES
 	// ============================================
@@ -135,6 +139,32 @@ public class OptionTestActivity extends Activity implements OnClickListener {
 
 		default:
 			break;
+		}
+	}
+	
+	@Override
+	public void onBackPressed() {
+		
+			AlertDialog dialog = createAlertDialog();
+			dialog.show();
+	}
+	
+	public AlertDialog createAlertDialog() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle(getString(R.string.close_app));
+		builder.setIcon(R.drawable.icon);
+
+		builder.setPositiveButton(getString(R.string.yes), this);
+		builder.setNeutralButton(getString(R.string.cancel), this);
+		return builder.create();
+	}
+
+	public void onClick(DialogInterface dialog, int which) {
+		if (which == AlertDialog.BUTTON_POSITIVE) {
+			finish();
+
+		} else if (which == AlertDialog.BUTTON_NEUTRAL) {
+
 		}
 	}
 }

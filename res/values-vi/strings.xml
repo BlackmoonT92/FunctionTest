@@ -102,5 +102,10 @@
     <string name="use_gps">Sử dụng GPS</string>
     <string name="version">© 2014 BlackmoonT92</string>
     <string name="testAll">Kiểm tra tất cả</string>
+    
+    <!-- finish -->
+     <string name="close_app">Thoát ứng dụng ?</string>
+    <string name="yes">Thoát</string>
+    <string name="cancel">Hủy bỏ</string>
 
 </resources>
