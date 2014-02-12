@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Function Test</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lablel_button">Phím chức năng</string>
+    <string name="lablel_screen">Màn hình</string>
+    <string name="lablel_touch">Cảm ứng</string>
+    <string name="lablel_sensor">Cảm biến</string>
+    <string name="lablel_sound">Âm thanh</string>
+    <string name="lablel_vibration">Rung</string>
+    <string name="lablel_camera">Camera</string>
+    <string name="lablel_gps">GPS</string>
+    <string name="lablel_network">Mạng</string>
+    <string name="label_options_test">Tùy chọn</string>
+    <string name="content_main_test_button">Kiểm tra để chắc rằng các phím chức năng vẫn hoạt động tốt.</string>
+    <string name="time_main_test_button">Thời gian kiểm tra : Khoảng 30s</string>
+    <string name="lablel_start">Bắt đầu</string>
+    <string name="lablel_redo">Làm lại</string>
+    <string name="label_next">Tiếp tục</string>
+    <string name="lablel_done">Hoàn thành</string>
+    <string name="test_button_back_tap">Nhấn phím Back.</string>
+    <string name="test_button_home_tap">Nhấn phím Home.</string>
+    <string name="test_button_menu_tap">Nhấn phím Menu.</string>
+    <string name="test_button_volume_up_tap">Nhấn phím Tăng Âm lượng.</string>
+    <string name="test_button_volume_down_tap">Nhấn phím Giảm Âm lượng.</string>
+    <string name="test_button_power_tap">Nhấn phím Nguồn.</string>
+    <string name="test_screen">Kiểm tra màn hình.</string>
+    <string name="content_main_test_touch">Kiểm tra để chắc rằng các thao tác Cảm Ứng vẫn hoạt động tốt.</string>
+    <string name="time_main_test_touch">Thời gian kiểm tra : Khoảng 30s</string>
+    <string name="single_touch">Chạm đơn</string>
+    <string name="multitouch">Chạm đa điểm</string>
+    <string name="pinch_zoom_touch">Thao tác Phóng To</string>
+    <!-- sensor -->
+    <string name="sensor_acceleration">Cảm biến Gia Tốc</string>
+    <string name="sensor_gyroscope">Cảm biến Quay</string>
+    <string name="sensor_direction">Cảm biến Điều Hướng</string>
+    <string name="sensor_proximity">Cảm biến Lân Cận</string>
+    <string name="sensor_magnetic">Cảm biến Từ Trường</string>
+    <string name="sensor_light">Cảm biến Ánh Sáng</string>
+    <string name="content_sensor_test">Kiểm tra tất cả các Cảm Biến đều hoạt động tốt.</string>
+    <string name="content_sensor_acceleration_test">Kiểm tra để chắc rằng cảm biến Gia Tốc vẫn hoạt động tốt.</string>
+    <string name="content_sensor_gyroscope_test">Kiểm tra để chắc rằng cảm biến Quay vẫn hoạt động tốt.</string>
+    <string name="content_sensor_direction_test">Kiểm tra để chắc rằng cảm biến Điều Hướng vẫn hoạt động tốt.</string>
+    <string name="content_sensor_proximity_test">Kiểm tra để chắc rằng cảm biến Lân Cận vẫn hoạt động tốt.</string>
+    <string name="content_sensor_magnetic_test">Kiểm tra để chắc rằng cảm biến Từ Trường vẫn hoạt động tốt.</string>
+    <string name="content_sensor_light_test">Kiểm tra để chắc rằng cảm biến Ánh Sáng vẫn hoạt động tốt.</string>
+    <!-- acceleration sensor -->
+    <string name="x_axis">Trục X</string>
+    <string name="y_axis">Trục Y</string>
+    <string name="z_axis">Trục Z</string>
+    <string name="x_axis_value">X = </string>
+    <string name="y_axis_value">Y = </string>
+    <string name="z_axis_value">Z = </string>
+
+    <!-- direction sensor -->
+    <string name="content_direction_sensor">Đặt thiết bị của bạn trên mặt phẳng và kiểm tra La Bàn đang hoạt động đúng. </string>
+    <string name="azimuth">Góc :  </string>
+    <!-- proximity sensor -->
+    <string name="status_near">Gần</string>
+    <string name="status_far">Xa</string>
+    <string name="content_proximity">Đặt bàn tay tới gần phần trên của thiết bị và kiểm tra cảm biến đang hoạt động đúng.</string>
+
+    <!-- magnetic sensor -->
+    <string name="normal">Bình thường</string>
+    <string name="detected">Phát hiện từ trường</string>
+    <string name="content_megnetic_sensor">Đặt 1 đối tượng có từ tính (Nam châm, Loa,vv) lại gần điện thoại và kiểm tra cảm biến Từ Trường đang hoạt động đúng.</string>
+    <!-- Light Sensor -->
+    <string name="brightness_intensity">Cường độ Ánh Sáng : </string>
+    <string name="content_sensor_light">Kiểm tra cảm biến ánh sáng dựa trên cường độ ánh sáng của môi trường xung quanh.</string>
+
+    <!-- Show -->
+    <string name="result_passed">Hoạt Động Tốt</string>
+    <!-- Sound -->
+    <string name="title_sound">Tên âm thanh : </string>
+    <string name="phone_ringtone">Chuông điện thoại</string>
+    <string name="notification_sound">Âm thông báo</string>
+    <string name="alarm">Báo Thức</string>
+    <string name="microphone">Microphone</string>
+    <string name="content_sound_test">Kiểm tra để chắc rằng âm thanh vẫn hoạt động tốt.</string>
+    <string name="content_sound_detail">Chạm vào hình điện thoại phía trên để mở/tắt âm thanh.</string>
+
+    <!-- Vibration -->
+    <string name="content_vibration">Chạm vào hình điện thoại phía trên để mở/dừng rung.</string>
+
+    <!-- Camera -->
+    <string name="content_camera">Kiểm tra để chắc rằng Camera vẫn hoạt động tốt.</string>
+    <string name="take_picture">Chụp ảnh</string>
+    <string name="capture_video">Quay phim</string>
+
+    <!-- Network -->
+    <string name="content_network">Kiểm tra độ nhạy của mạng Không Dây xung quang thiết bị</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="mobile_network">Mạng 3G</string>
+    <string name="not_supported">Máy bạn không hỗ trợ.</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="nfc">NFC</string>
+    <!-- GPS -->
+    <string name="content_gps_main">Kiểm tra để chắc rằng GPS vẫn hoạt động tốt.</string>
+    <string name="content_gps">Khi sử dụng GPS hoặc tín hiệu mạng, tín hiệu mạng có thể khác nhau tùy thuộc vào môi trường sử dụng (thời tiết, vị trí). </string>
+    <string name="use_gps">Sử dụng GPS</string>
+    <string name="version">© 2014 BlackmoonT92</string>
+    <string name="testAll">Kiểm tra tất cả</string>
+
+</resources>

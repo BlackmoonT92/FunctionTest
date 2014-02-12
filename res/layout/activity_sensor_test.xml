@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tvContentTouchTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/content_sensor_test"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSensorAcceleration"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/sensor_acceleration"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSensorDirection"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/sensor_direction"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSensorProximity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/sensor_proximity"
+        android:textColor="@color/white" />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSensorMagnetic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/sensor_magnetic"
+        android:textColor="@color/white" />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSensorLight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/sensor_light"
+        android:textColor="@color/white" />
+    
+</LinearLayout>

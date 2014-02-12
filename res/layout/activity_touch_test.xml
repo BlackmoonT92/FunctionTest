@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tvContentTouchTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="@string/content_main_test_button"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvTimeTouchTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_main_test_button"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/orange" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnSingleTouch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/single_touch"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnMultiTouch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/multitouch"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/btnPinchZoomTouch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/list_selector"
+        android:text="@string/pinch_zoom_touch"
+        android:textColor="@color/white" />
+
+</LinearLayout>

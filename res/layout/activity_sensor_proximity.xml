@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tvStatusProximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/orange" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvContentProximity"
+        android:layout_below="@+id/tvStatusProximity" >
+
+        <ImageView
+            android:id="@+id/ivProximity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:src="@drawable/proximity_default" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvContentProximity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSensorProximityDone"
+        android:text="@string/content_proximity"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnSensorProximityDone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/list_selector"
+        android:text="@string/lablel_done"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

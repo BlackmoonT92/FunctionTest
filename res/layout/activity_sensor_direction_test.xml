@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/orange"
+        android:text="Heading: 0.0" />
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@+id/tvHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnSensorDirectionDone"
+        android:src="@drawable/compass" />
+
+    <Button
+        android:id="@+id/btnSensorDirectionDone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/list_selector"
+        android:text="@string/lablel_done"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

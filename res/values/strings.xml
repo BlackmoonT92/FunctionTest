@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Function Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lablel_button">Button</string>
+    <string name="lablel_screen">Screen</string>
+    <string name="lablel_touch">Touch</string>
+    <string name="lablel_sensor">Sensor</string>
+    <string name="lablel_sound">Sound</string>
+    <string name="lablel_vibration">Vibration</string>
+    <string name="lablel_camera">Camera</string>
+    <string name="lablel_gps">GPS</string>
+    <string name="lablel_network">Network</string>
+    <string name="label_options_test">OptionTest</string>
+    <string name="content_main_test_button">Make sure that tap/tap and hod button is working properly.</string>
+    <string name="time_main_test_button">Test time : about 30 seconds</string>
+    <string name="lablel_start">Start</string>
+    <string name="lablel_redo">Redo</string>
+    <string name="label_next">Next</string>
+    <string name="lablel_done">Done</string>
+    <string name="test_button_back_tap">Tap the Back key.</string>
+    <string name="test_button_home_tap">Tap the Home key.</string>
+    <string name="test_button_menu_tap">Tap the Menu key.</string>
+    <string name="test_button_volume_up_tap">Tap the Volume up key.</string>
+    <string name="test_button_volume_down_tap">Tap the Volume down key.</string>
+    <string name="test_button_power_tap">Tap the Power key.</string>
+    <string name="test_screen">Screen Test.</string>
+    <string name="content_main_test_touch">Make sure that touch is working properly.</string>
+    <string name="time_main_test_touch">Test time : about 30 seconds</string>
+    <string name="single_touch">Single Touch</string>
+    <string name="multitouch">Multi Touch</string>
+    <string name="pinch_zoom_touch">Pinch Zoom Touch</string>
+    <!-- sensor -->
+    <string name="sensor_acceleration">Acceleration Sensor</string>
+    <string name="sensor_gyroscope">Gyroscope Sensor</string>
+    <string name="sensor_direction">Direction Sensor</string>
+    <string name="sensor_proximity">Proximity Sensor</string>
+    <string name="sensor_magnetic">Magnetic Sensor</string>
+    <string name="sensor_light">Light Sensor</string>
+    <string name="content_sensor_test">Make  sure that all sensor is working properly.</string>
+    <string name="content_sensor_acceleration_test">Make  sure that acceleration sensor is working properly.</string>
+    <string name="content_sensor_gyroscope_test">Make  sure that Gyroscope sensor is working properly.</string>
+    <string name="content_sensor_direction_test">Make  sure that Direction sensor is working properly.</string>
+    <string name="content_sensor_proximity_test">Make  sure that Proximity sensor is working properly.</string>
+    <string name="content_sensor_magnetic_test">Make  sure that Magnetic sensor is working properly.</string>
+    <string name="content_sensor_light_test">Make  sure that Light sensor is working properly.</string>
+    <!-- acceleration sensor -->
+    <string name="x_axis">X - axis</string>
+    <string name="y_axis">Y - axis</string>
+    <string name="z_axis">Z - axis</string>
+    <string name="x_axis_value">X = </string>
+    <string name="y_axis_value">Y = </string>
+    <string name="z_axis_value">Z = </string>
+
+    <!-- direction sensor -->
+    <string name="content_direction_sensor">Put your phone on a flat surface and check the direction of the compass is displayed correctly </string>
+    <string name="azimuth">Azimuth :  </string>
+    <!-- proximity sensor -->
+    <string name="status_near">Near</string>
+    <string name="status_far">Far</string>
+    <string name="content_proximity">Put an object closer to the top of the phone and check if the sensor works properly.</string>
+
+    <!-- magnetic sensor -->
+    <string name="normal">Normal</string>
+    <string name="detected">Magnet Detected</string>
+    <string name="content_megnetic_sensor">Put a magnetic object (magnets, speakers, etc.) closer to the mobile phone and check if the sensor works properly.</string>
+    <!-- Light Sensor -->
+    <string name="brightness_intensity">Brightness Intensity : </string>
+    <string name="content_sensor_light">Check if the light sensor works properly according to ambient brightness on the screen.</string>
+
+    <!-- Show -->
+    <string name="result_passed">Passed</string>
+    <!-- Sound -->
+    <string name="title_sound">Sound name : </string>
+    <string name="phone_ringtone">Phone ringtone</string>
+    <string name="notification_sound">Notification sound</string>
+    <string name="alarm">Alarm</string>
+    <string name="microphone">Microphone</string>
+    <string name="content_sound_test">Make sure that sound is working properly.</string>
+    <string name="content_sound_detail">Touch the phone image above to turn off/on the sound.</string>
+
+    <!-- Vibration -->
+    <string name="content_vibration">Touch the phone image above to turn off/on the Vibration.</string>
+
+    <!-- Camera -->
+    <string name="content_camera">Make sure that camera is working properly.</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="capture_video">Capture Video</string>
+
+    <!-- Network -->
+    <string name="content_network">Check the sensitivity of the wireliess network adjacent to the mobile phone</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="mobile_network">Mobile Network</string>
+    <string name="not_supported">Not supported</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="nfc">NFC</string>
+    <!-- GPS -->
+    <string name="content_gps_main">Make sure that GPS is working properly.</string>
+    <string name="content_gps">When using GPS satellite receiver or a network, network signal may be different depending on the user environment. (weather, location).</string>
+    <string name="use_gps">Use GPS Satellites</string>
+    <string name="version">© 2014 BlackmoonT92</string>
+    <string name="testAll">Test All</string>
+    
+    
+</resources>
